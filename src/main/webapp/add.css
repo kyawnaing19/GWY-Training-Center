@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+
+
+ 
+
+table .f{
+	
+ height:30px;
+ width:200px;
+border-color:blue;
+ border-radius: 10px;
+ }
+ table tr td .btn{
+ width:100px;
+ height:25px;
+ border-radius: 8px;
+ border-color:blue;
+ }
+ 
+ #addinstructor1, #updateInstruct{
+ background-color:skyblue;
+ top:25%;
+ left:40%;
+ opacity:1;
+ pointer-events:none;
+ position: absolute;
+ padding:10px;
+ border-radius:10px;
+ 
+ }
+ #addinstructor1.active,#updateInstruct.active {
+ opacity:1;
+ pointer-events:auto;
+ }

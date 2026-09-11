@@ -1,0 +1,53 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+.container {
+	
+    display: flex;
+    margin-top: 180px;
+    margin-left: 100px;
+    align-items: right;
+    height: auto;
+    
+}
+
+/* Style the registration form */
+.info{
+    width:90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style form elements */
+.form-group {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+
+table{
+	border: none;
+	width:80%;
+	height:auto;
+	font-size: 1.5em;
+}
+
+input{
+    width: 50%;
+    padding: 10px;
+  background-color:skyblue;
+    border-radius: 3px;
+    height: 12px;
+    font-size: 0.8em;
+}
+
+
+

@@ -1,0 +1,445 @@
+@import url('https://fonts-googleapis.com/css2?family=Poppins:wight@100;200;300;400;500;600;700;800;900display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+   background-color:#dfe2d8;
+}
+
+/* Global Tags*/
+h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+span{
+    font-size: .9rem;
+    color:#757373;
+
+}
+h6{
+    font-size: 1.1rem;
+    color:rgb(24,24,49);
+}
+/* Navigation*/
+nav{
+	
+    position:fixed;
+    width:100%;
+    height:85px;
+    background-color:#fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 8vw;
+    border:1px solid;
+    box-shadow: 2px 2px 10px  rgba(0,0,0,0.15);
+  
+}
+.text{
+    color:rgb(21,21,100); 
+    font-size: 30px;
+}
+nav #logo{
+    display:flex;
+   
+
+}
+nav #logo #letter{
+    padding-top: 0px;
+}
+ nav img{
+    width: 100px;
+    height: auto;
+
+    }
+nav .navigation{
+
+    padding-top: 20px;
+    
+
+}
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+    
+}
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(21,21,100);
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+nav .navigation ul li a:hover{
+    color:blue;
+}
+ 
+	
+/* Home*/
+#home{
+    
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+
+}
+#home h2{
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+
+}
+#home p{
+    width: 50%;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 25px;
+    
+}
+#home .btn a{
+    margin-left: 20px;
+}
+#home .btn a:last-child{
+    margin-right: 0px;
+   }
+
+#home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+#home a.blue{
+    color: #fff;
+    background-color: rgba(21,21,100);
+}
+#home a.blue:hover{
+    color:rgba(21,21,100);
+    background:#fff;
+}
+
+
+/* course */
+
+
+/* Members */
+
+
+
+#course #contain{
+	
+	height:auto;
+	 display:block;
+	 width: 100%;
+	  z-index:-1;
+	background-color:transparent;
+}
+
+
+
+
+
+
+
+
+#course #contain #row {
+   
+  display: block;
+  height:auto;
+  background-color: transparent;
+  
+
+}
+
+#card {
+  background: #fff;
+  padding-bottom: 10px;
+  border-radius: var(--br);
+  transition: 0.5s;
+  padding-left:50px;
+  height:auto;
+  width: 100%;
+  display: block;
+  background-color:transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+  }
+ #card #photoandinfo{
+ width:100%;
+ height:1000px;
+
+ display :flex;
+ 
+ } 
+ #card #photoandinfo #photoandtable{
+ 
+ width:50%;
+ height:100%;
+ display:block;
+ 
+ }
+ 
+#card #photoandinfo #photoandtable #photo{
+ width:100%;
+ height:60%;
+ 
+ background-size: cover;
+ background-repeat: no-repeat;
+ } 
+  
+  
+#card #photoandinfo #photoandtable #box{
+	padding:30px;
+	width:100%;
+	height: 33%;
+	border: none;
+
+
+} 
+
+#card #photoandinfo #photoandtable #cname{
+	margin-top:20px;
+	width:100%;
+	height:7%;
+	color:#ffffff;
+	padding-top:20px;
+	padding-left:20px;
+	font-size:1.5em;
+	border:1px solid;
+	background-color:#000068;
+	}
+
+
+#card #photoandinfo #info{
+	left:50%;
+	width:50%;
+	height:100%;
+	padding-top:130px;
+	padding-left:150px;
+	padding-right:150px;
+	text-align: justify;
+
+	line-height: 30px;
+	
+
+}
+table{
+	margin-top: 20px;
+	
+        border-radius: 10px;
+        max-height: 700px;
+       
+       
+        
+        
+}
+input{
+	text-align:center;
+	margin: 10px;
+	width:300px;
+	height: 40px;
+	border-radius:10px;
+	padding: 5px; 
+	background-color: #5ba497;
+}
+#card:hover {
+    
+  /*box-shadow: 0px 3px 10px 5px #0f5cc0;*/
+}
+#card  img {
+  width: 90%;
+  height:90%;
+  border: none;
+
+}
+ 
+
+
+#card .role {
+  font-size: 80%;
+  color: #444;
+  margin-bottom: 20px;
+}
+#card a {
+	
+	text-align:center;
+  background: var(--btn, #000);
+  color: #fff;
+  padding: 10px 15px;
+  width: 250px;
+  display: block;
+  border-radius:10px;
+  text-decoration: none;
+  margin-left:20px;
+}
+
+/*our team */
+/* Contact us */
+
+.about-text{
+    text-align:center;
+    
+   margin-top:1200px; 
+   padding-top: 100px; 
+       }
+   
+.about-text .about-section h1{
+font-size: 3em;
+}
+
+/* Members */
+.about{
+    
+ 
+ position: relative;
+ margin-top:50px;
+}
+
+
+
+
+.about .contain1 {
+    position:absolute;
+   z-index:-1;
+  margin-left:60px;
+  
+  padding-top: 50px;
+}
+
+.about .contain1 h1{
+font-size: 3em;
+margin-top: 50px;
+}
+.row1 {
+   
+  display: flex;
+  gap:20px;
+
+}
+
+.card1 {
+  background: #567383;
+  padding: 50px;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-left:30px;
+  
+}
+.card1:hover {
+    
+  box-shadow: 0px 3px 10px 5px #0f5cc0;
+}
+.card1 img {
+	margin-left:25px;
+  max-width: 150px;
+  border-radius: 10%;
+  aspect-ratio: 1 / 1;
+  border: 4px solid var(--bc, #000);
+}
+h1 {
+
+  margin: 20px 0;
+  text-align:center;
+}
+h2 {
+   font-size:1.5em;
+  margin: 15px 0 5px;
+}
+.card1 .role {
+  font-size: 80%;
+  color: #444;
+  margin-bottom: 20px;
+}
+.card1 a {
+  background: var(--btn, #000);
+  color: #fff;
+  padding: 10px 15px;
+  width: 100%;
+  display: block;
+  border-radius: var(--br);
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+ /* Style for the footer */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    top:530px;
+    left:0;
+     width: 100%;
+    position: absolute;
+   
+    
+}
+
+/* Style for the footer content */
+#footer {
+  font-size: 14px;
+  background: #0c0116;
+}
+
+#footer .footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+#footer .copyright {
+  float: left;
+}
+
+#footer .credits {
+  float: right;
+  font-size: 13px;
+}
+
+
+
+@media (max-width: 768px) {
+  #footer .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #footer .copyright,
+  #footer .credits {
+    text-align: center;
+    float: none;
+  }
+  
+  #footer .credits {
+    padding-top: 4px;
+  }
+}
+
+
+    
+
+
+  
+  
+

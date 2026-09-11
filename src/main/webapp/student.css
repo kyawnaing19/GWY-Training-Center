@@ -1,0 +1,223 @@
+@charset "ISO-8859-1";
+
+
+.main{
+	
+	width: 81%;
+	
+	margin-left:19%;
+}
+h1
+ {
+ 	border:1px;
+ 	margin-left:10px;
+ 	margin-top:20px;
+    line-height: 1.2;
+    font-size:3em;
+    font-weight: 500;
+   color:#047386;
+    
+}
+
+
+.right {
+	border-radius:10%;
+	margin-left:70%;
+	margin-top:20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.toggle-icon i {
+    cursor: pointer;
+}
+.toggle-icon {
+        display: none;
+    }
+    
+    .right i {
+    color: #697a8d;
+    font-size: var(--fs20);
+}
+
+.right input {
+	
+    background-color: transparent;
+    color: #697a8d;
+    font-weight: 400;
+    font-size: var(--fs16);
+    padding: .5rem .8rem;
+    width: 60%;
+    
+    border-radius: 10px;
+    
+}
+.right input::placeholder {
+    font-size: var(--fs15);
+}
+
+.right input:focus::placeholder {
+    opacity: 0;
+}
+
+ table{
+ border:1px solid black;
+ margin-top: 20px;
+ border-collapse:collapse;
+ width:80%;
+ margin-left: 20px;
+ border-bottom: 1px solid;
+ border-right: 1px solid;
+
+ }
+ th{
+ border:1px solid black;
+ padding:10px 40px 10px 40px;
+ font-size: 1.7em;}
+ 
+ tr{
+ border:1px solid black;
+padding:10px 40px 10px 40px;
+ font-size: 1em;}
+ 
+ td{
+ border:1px solid black;
+padding:10px 40px 10px 40px;
+ font-size: 1.2em;}
+ 
+ 
+ footer {
+    background-color: var(--whiteColor);
+    margin-top: 2rem;
+    padding: 2rem 0;
+    border-radius: var(--smallBorder) var(--smallBorder) 0 0;
+}
+
+footer .copyright {
+    font-size: var(--fs14);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.switcher-container {
+    position: fixed;
+    top: 5%;
+    right: -20rem;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem .5rem;
+    border-radius: var(--smallBorder) 0 0 var(--smallBorder);
+    background-color: var(--whiteColor);
+    box-shadow: 0 0.2rem 0.6rem 0 rgb(218 218 253 / 65%), 0 0.2rem 0.6rem 0 rgb(206 206 238 / 54%);
+    transition: all .3s ease-in-out;
+}
+
+.switcher-container.open {
+    right: 0;
+}
+
+.switcher-container .switcher-icon {
+    position: absolute;
+    top: calc(50% - 3rem);
+    left: -3rem;
+    padding: .5rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--blueColor);
+    border-radius: var(--smallBorder) 0 0 var(--smallBorder);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.switcher-container .switcher-icon i {
+    font-size: var(--fs16);
+    color: var(--whiteColor);
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.switcher-container .switcher-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+}
+
+.switcher-container .switcher-close i {
+    font-size: var(--fs16);
+}
+
+.switcher-container .switcher-header {
+    padding: 0 .5rem;
+}
+
+.switcher-container .switcher-header h3 {
+    text-transform: uppercase;
+    font-size: var(--fs16);
+    padding: .5rem 0;
+    border-bottom: .1rem solid var(--lightGray);
+}
+
+.switcher-container .switcher-header h4 {
+    text-transform: capitalize;
+    font-size: var(--fs14);
+    margin: 1rem 0;
+    padding: .5rem 0;
+    border-bottom: .1rem solid var(--lightGray);
+}
+
+.switcher-container .switcher-body {
+    margin-top: 3rem;
+}
+
+.switcher-container .switcher-body ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.switcher-container .switcher-body ul li {
+    width: 2rem;
+    height: 2rem;
+    border-radius: var(--smallBorder);
+    box-shadow: 0 0.2rem 0.6rem 0 rgb(67 89 113 / 12%);
+    cursor: pointer;
+}
+
+.switcher-container .switcher-body ul li:first-child {
+    background-color: #ffffff;
+}
+
+.switcher-container .switcher-body ul li:last-child {
+    background-color: #000000;
+}
+
+.scroll-top {
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+    width: 3rem;
+    height: 3rem;
+    padding: .5rem;
+    border-radius: var(--smallBorder);
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.scroll-top i {
+    font-size: var(--fs16);
+}
+ 
